@@ -1,0 +1,92 @@
+.top {
+	padding-top: 10px;
+}
+
+.body {
+	border: 1px solid gray;
+	font-size: 15px;
+}
+
+.icon {
+	float: right;
+	padding-right: 6px;
+	padding-top: 0px;
+	color: lightgray;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 6px;
+}
+
+.icon:hover {
+	color: red;
+	font-size: 24px;
+}
+
+td {
+	width: 400px;
+	font-size: 15px;
+	padding-top: 14px;
+}
+
+.td {
+	float: right;
+}
+
+.pad {
+	padding-top: 15px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+}
+
+input[type=checkbox] {
+	width: 27px;
+}
+
+.a {
+	float: right;
+	font-size: 18px;
+}
+
+.a1 {
+	font-size: 18px;
+}
+
+.a2 {
+	font-size: 16px;
+}
+
+.col {
+	width: 80%;
+	margin-top: 1px;
+}
+
+input[type=email] {
+	width: 100%;
+	border-radius: 4px;
+	border: 1px solid #b8b8b8;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	padding: 12px;
+}
+
+input[type=submit] {
+	width: 80%;
+	border-radius: 4px;
+	border: 1px solid #ec9900;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	padding: 9px;
+	font-size: 18px;
+	color: white;
+	background: orange;
+}
+
+input[type=submit]:hover {
+	background: rgb(255, 199, 0);
+}
+
+.divsm {
+	padding-left: 580px;;
+	padding-bottom: 15px;
+}

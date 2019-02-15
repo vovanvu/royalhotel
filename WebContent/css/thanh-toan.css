@@ -1,0 +1,24 @@
+.orange {
+  color: #ff8917 !important;
+}
+.heading-text{
+  font-size: 15px;
+  font-weight: bold;
+}
+.tong-tien{
+  font-size: 22px;
+}
+.tong-cong-footer{
+  background-color:white;
+}
+.btn-thanh-toan{
+  width: 200px;
+  height: 40px;
+  margin-top:20px;
+}
+.bank-info{
+  margin-left:10px;
+}
+.bank-name{
+  font-weight:bold;
+}@charset "ISO-8859-1";

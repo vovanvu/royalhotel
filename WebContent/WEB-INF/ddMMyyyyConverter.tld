@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<short-name>ddMMyyyyConverter</short-name>
+
+	<tag>
+		<name>ddMMyyyyConverter</name>
+		<tag-class>customtag.ddMMyyyyConverter</tag-class>
+		<body-content>scriptless</body-content>
+
+		<attribute>
+			<name>date</name>
+			<required>true</required>
+			<!-- Cho phep su dung trong runtime bang EL expression -->
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	<tag>
+		<name>ddMMyyyyConverterTimeStamp</name>
+		<tag-class>customtag.ddMMyyyyConverterTimeStamp</tag-class>
+		<body-content>scriptless</body-content>
+
+		<attribute>
+			<name>timeStamp</name>
+			<required>true</required>
+			<!-- Cho phep su dung trong runtime bang EL expression -->
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+</taglib>
